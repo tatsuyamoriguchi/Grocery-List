@@ -21,10 +21,10 @@ class InterfaceController: WKInterfaceController {
         myTable.setNumberOfRows(5, withRowType: "cell")
         
         var n = 0
-        for fruite in array {
+        for _ in array {
             let row = myTable.rowController(at: n) as! RowController
-            //row.myLabel.setText(array[n])
-            row.myLabel.setText(fruite)
+            row.myLabel.setText(array[n])
+            //row.myLabel.setText(fruite)
             n += 1
         }
 
