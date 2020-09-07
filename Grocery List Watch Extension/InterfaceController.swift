@@ -24,7 +24,7 @@ class InterfaceController: WKInterfaceController {
         for _ in array {
             let row = myTable.rowController(at: n) as! RowController
             row.myLabel.setText(array[n])
-            //row.myLabel.setText(fruite)
+            //row.myLabel.setText(fruit)
             n += 1
         }
 
